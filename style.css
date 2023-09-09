@@ -6,6 +6,11 @@ html,
     padding: 0;
 }
 
+body {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -38,6 +43,14 @@ main {
     border-radius: 5rem;
 }
 
+.day p {
+    font-size: 1.2rem;
+}
+
+.time p {
+    font-size: 1.2rem;
+}
+
 .body {
     display: flex;
     width: 30rem;
@@ -50,11 +63,15 @@ main {
     border-radius: 1rem;
 }
 
+.slack-track {
+    font-size: 1.5rem;
+}
+
 .date {
     font-size: 1rem;
     margin-bottom: 1rem;
     display: flex;
-    gap: 2rem;
+    gap: 1.2rem;
 }
 
 .button {
